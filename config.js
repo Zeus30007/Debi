@@ -7,15 +7,15 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['917424961636', 'AnshulPurbey', true],
-  [''] 
+  ['6797309646', 'MAIKI', true],
+  ['27624624322', 'GERALDINE', true] 
 ] //Number of owners
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['917424961636','32460248586'] 
-global.prems = ['917424961636', '32460248586']
-global.allowed = ['917424961636', '32460248586', '19152999993']
+global.mods = ['27624624322','6797309646'] 
+global.prems = ['27624624322', '6797309646']
+global.allowed = ['27624624322', '6797309646', '19152999993']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -49,10 +49,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'डैंक समाज बॉट'
+global.botname = 'Debi'
 global.premium = 'true'
-global.packname = 'AKP┃ᴮᴼᵀ' 
-global.author = '@AnshulPurbey' 
+global.packname = 'Debi' 
+global.author = '𝚀𝚄𝙴𝙴𝙽 𝚂𝙰𝚅𝙰𝙶𝙴 ' 
 global.menuvid = 'https://telegra.ph/file/085c4b1068f0f4f8db970.mp4'
 global.igfg = '▢ Follow your Heart with the consent of your Brain\n' 
 global.dygp = 'https://chat.whatsapp.com/H7iMoG1wISj7TD22hOshtY'
