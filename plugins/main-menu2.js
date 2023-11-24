@@ -19,7 +19,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
+if (!(who in global.db.data.users)) throw `, The user is not found in my database`
 let pp = './Assets/Gurulogo.jpg'
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
@@ -37,34 +37,34 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
+🔥 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🔥
 
 📜 *_Quote of the day: ${quote}_* 📜
 
-┏━💼 _User Info:_ 💼━┓
-┃ 👾  *User Tag:* ${taguser} 
-┃ 🎩  *Name:* ${name} 
-┃ 🦸  *Master Mind:* ${author} 
-┃ 💎  *Diamonds:* ${diamond} 
-┃ 🏆  *Rank:* ${role}
-┃ 🎮  *XP:* ${exp} 
+┏━🔥 _User Info:_ 🔥━┓
+┃ 🔥  *User Tag:* ${taguser} 
+┃ 🔥  *Name:* ${name} 
+┃ 🔥  *Master Mind:* ${author} 
+┃ 🔥  *Diamonds:* ${diamond} 
+┃ 🔥  *Rank:* ${role}
+┃ 🔥  *XP:* ${exp} 
 ┗━━━━━━━━━━━┛
 
-┏━━⏰ _Today's Sauce!_ ⏰━┓
-┃ 📆  *Today's Date:* ${date} 
-┃ ⏲️  *Current Time:* ${wib} 
+┏━━🔥_Today's Sauce!_ 🔥━┓
+┃ 🔥  *Today's Date:* ${date} 
+┃ 🔥  *Current Time:* ${wib} 
 ┗━━━━━━━━━━━━━┛
 
-┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🤡  *Bot Name:* ${botname} 
-┃ 💻  *Platform:* Linux 
-┃ 📣  *Prefix:* ${usedPrefix} 
-┃ 🕓  *Uptime:* ${uptime}
-┃ 💌  *Database:* ${rtotalreg} of ${totaluser} 
-┃ 📚  *Total Users:* ${totaluser} 
+┏━━🔥 _BOT STATUS:_🔥━━┓
+┃ 🔥  *Bot Name:* ${botname} 
+┃ 🔥  *Platform:* Linux 
+┃ 🔥  *Prefix:* ${usedPrefix} 
+┃ 🔥  *Uptime:* ${uptime}
+┃ 🔥  *Database:* ${rtotalreg} of ${totaluser} 
+┃ 🔥  *Total Users:* ${totaluser} 
 ┗━━━━━━━━━━━━━┛
 
-💡 *_Remember, when in doubt, use ${usedPrefix}list or ${usedPrefix}help2. It's like my magic spell book!_* 💡
+🔥 *_Remember, when in doubt, use ${usedPrefix}list or ${usedPrefix}help2. It's like my magic spell book!_* 💡
 `
 
 
