@@ -30,8 +30,9 @@ break;
         case 'botmenu':
           lkr = `❀° ┄──•••───╮
           𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
-   ╰───•••──┄ °❀     
-   ┏━━━ʕ•㉨•ʔ━━━┓
+   ╰───•••──┄ °❀  
+   🔥𝚀𝚄𝙴𝙴𝙽 𝚂𝙰𝚅𝙰𝙶𝙴🔥
+   ┏━━━ʕ•🔥•ʔ━━━┓
    ⎪⌲👑 _${usedPrefix}gita_
    ⎪⌲👑 _${usedPrefix}ping_
    ⎪⌲👑 _${usedPrefix}uptime_
@@ -275,7 +276,7 @@ break;
      ⎪⌲👑 _${usedPrefix}tinyurl/shorturl_
      ⎪⌲👑 _${usedPrefix}readvo_
      ⎪⌲👑 _${usedPrefix}true_
-     ┗━━━ʕ•㉨•ʔ━━━┛`; // 
+     ┗━━━ʕ•🔥•ʔ━━━┛`𝚀𝚄𝙴𝙴𝙽 𝚂𝙰𝚅𝙰𝙶𝙴 ; // 
           break;
           case 'nsfwmenu':
           lkr = `use command ${usedPrefix}nsfw`; // 
@@ -289,7 +290,7 @@ break;
     
       conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] });
     
-      let done = '👍';
+      let done = '🔥';
       m.react(done);
     };
     
